@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "MR Base Plugin",
+	"Description": "PICO 4U MR (Video See-Through / Passthrough) base template plugin. Provides the MR game mode, MR pawn with a full-screen passthrough underlay layer, and the Lv_MR white-box scene bootstrap.",
+	"Category": "Mixed Reality",
+	"CreatedBy": "MRBaseTemplate",
+	"CanContainContent": true,
+	"EnabledByDefault": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "MRBasePlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "PICOXR",
+			"Enabled": true
+		}
+	]
+}

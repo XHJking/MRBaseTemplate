@@ -1,0 +1,30 @@
+# IDE / user files
+.vs/
+.idea/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+.vsconfig
+
+# SVN working copy metadata
+.svn/
+
+# OS files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+.DS_Store
+
+# Unreal Engine generated / build output (any depth)
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Packaged builds
+Package/

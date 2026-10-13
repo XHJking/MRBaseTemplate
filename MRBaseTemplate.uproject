@@ -1,0 +1,42 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{4C04B653-41B6-761E-11BF-3F9241DFFA70}",
+	"Category": "",
+	"Description": "PICO 4U MR (Video See-Through / Passthrough) base template built on PICO OpenXR.",
+	"Modules": [
+		{
+			"Name": "MRBaseTemplate",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "PICOOpenXR",
+			"Enabled": false
+		},
+		{
+			"Name": "PICOXR",
+			"Enabled": true
+		},
+		{
+			"Name": "PICOEnterprise",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLink",
+			"Enabled": false
+		},
+		{
+			"Name": "MRBasePlugin",
+			"Enabled": true
+		}
+	]
+}
